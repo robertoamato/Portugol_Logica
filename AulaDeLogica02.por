@@ -3,7 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		cadeia nome
+		escreva ("digite o seu nome \n" )
+		leia (nome)
+		
+		cadeia sobrenome
+		escreva ("digite o seu sobrenome \n")
+		leia(sobrenome)
+		
+		limpa()
+		cadeia nomecompleto
+		escreva("Seja bem vindo ", nome, " ", sobrenome , " ao curso de logica " )
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 289; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
