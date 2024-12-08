@@ -4,8 +4,8 @@ programa
 	funcao inicio()
 	{
 		cadeia produto
-		real valor, precofinal
-		real desconto = 10
+		real valor, desconto, valordesconto, valorfinal
+		
 
 		escreva(" Digite o nome do produto \n")
 		leia(produto)
@@ -13,15 +13,29 @@ programa
 		escreva(" Digite o valor do produto \n")
 		leia(valor)
 
-		escreva(" O valor do desconto é ", desconto, "%" )
+		escreva(" Desconto ... \n" )
+		leia(desconto)
+		
 		limpa()
 		
 
-		desconto = valor *0.10
-		precofinal = valor - desconto
+		valordesconto = valor *(desconto /100)
+		valorfinal = valor - valordesconto
+		limpa()
 
-		escreva (" voce escolheu o produto ", produto, " o valor desse produto é " , valor , " o desconto aplicado será ", desconto, " ficando R$ ", precofinal )
-		
+		escreva (" Nome do produto.. ", produto, " \n"  )
+		escreva(" Valor do produto.." , valor, " \n")
+		escreva(" desconto.." , desconto, " \n")
+		escreva(" Valor final.." , valorfinal, " \n")
+
+		se (valorfinal <=1000){
+			escreva (" Compra nao concluida \n")
+			
+			
+			} senao se(valorfinal >= 1350){
+				escreva(" parabens a tv é sua")
+				
+				}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 458; 
+ * @POSICAO-CURSOR = 673; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
