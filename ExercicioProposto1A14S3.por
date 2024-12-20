@@ -1,4 +1,4 @@
-programa   
+programa   
 {
 	
 	funcao inicio()
@@ -19,20 +19,17 @@ programa
 
 
 		se ( cargo == "gerente" e departamento == "tic"){
-			escreva(" voce receberá um bonus")
+			escreva(" voce receberá um bonus \n")
 			
-			}se (idade >= 60 ){
-				escreva ("voce recebera um bonus extra")
+			}senao{ escreva(" voce nao recebera um bonus \n ")}
+
+						se (idade >= 60 ){
+				escreva (" voce recebera um bonus extra por sua idade \n")
 
 
 
 				
 			}
-
-
-			
-		senao{ escreva(" voce nao recebera um bonus")}
-			
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -40,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 271; 
+ * @POSICAO-CURSOR = 416; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
