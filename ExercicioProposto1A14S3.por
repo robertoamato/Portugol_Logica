@@ -23,7 +23,7 @@ programa
 			
 			}senao{ escreva(" voce nao recebera um bonus \n ")}
 
-						se (idade >= 60 ){
+						se (idade >= 62 ){
 				escreva (" voce recebera um bonus plus \n")
 
 
@@ -37,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 489; 
+ * @POSICAO-CURSOR = 443; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
