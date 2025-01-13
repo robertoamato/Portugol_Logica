@@ -1,5 +1,5 @@
 programa{
-    real var_Val1, var_Val2, var_Media
+    real var_Val3, var_Val2, var_Media
 
     funcao inicio(){
         limpa()
@@ -23,7 +23,7 @@ programa{
 
     funcao finalizar(){
         escreva("Media = ", var_Media, "\n")
-        escreva("----fim do programa")
+        
         }
    
 }
@@ -34,7 +34,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 575; 
+ * @POSICAO-CURSOR = 27; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
