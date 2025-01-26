@@ -21,7 +21,7 @@ programa
 	funcao meio(){
 		inteiro contador,res
 		
-		para( contador=1; contador<=13;contador++){
+		para( contador=1; contador<=14;contador++){
 			res= numero* contador
 			escreva (numero, " x ", contador, " = " , res , " \n " )
 			
