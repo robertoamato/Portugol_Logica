@@ -21,7 +21,7 @@ programa
 	funcao meio(){
 		inteiro contador,res
 		
-		para( contador=1; contador<=19;contador++){
+		para( contador=2; contador<=19;contador++){
 			res= numero* contador
 			escreva (numero, " x ", contador, " = " , res , " \n " )
 			
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 254; 
+ * @POSICAO-CURSOR = 240; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
